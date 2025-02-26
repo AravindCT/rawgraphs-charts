@@ -21,12 +21,17 @@
   "dependencies": {
     "d3": "^7.2.0",
     "d3-contour": "^3.0.1",
+    "d3-geo": "^3.0.1",
+    "d3-geo-projection": "^4.0.0",
     "d3-gridding": "^0.2.0",
     "d3-hexbin": "^0.2.2",
     "d3-sankey": "^0.12.3",
     "d3-sankey-circular": "^0.34.0",
+    "d3-scale-chromatic": "^3.1.0",
     "d3-voronoi-treemap": "^1.1.1",
-    "louvain": "^1.2.0"
+    "louvain": "^1.2.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -42,6 +47,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-macros": "^2.8.0",
     "babel-plugin-preval": "^5.0.0",
+    "css": "^3.0.0",
     "css-loader": "^6.5.1",
     "dsv-loader": "^2.0.0",
     "file-loader": "^6.1.0",
@@ -58,8 +64,7 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.62.2",
     "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0",
-    "css": "^3.0.0"
+    "webpack-dev-server": "^4.4.0"
   },
   "engines": {
     "npm": ">=7.0.0"

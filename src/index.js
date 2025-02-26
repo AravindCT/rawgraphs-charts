@@ -30,3 +30,6 @@ export { default as violinplot } from './violinplot'
 export { default as voronoitreemap } from './voronoitreemap'
 export { default as voronoidiagram } from './voronoidiagram'
 export { default as chorddiagram } from './chorddiagram'
+export { default as simplemap } from './simplemap'
+export { default as geojsonmap } from './geojsonmap'
+export { default as choroplethmap } from './choroplethmap';
